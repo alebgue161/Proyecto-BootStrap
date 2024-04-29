@@ -1,4 +1,7 @@
-
+.container{
+    width: 90%;
+    back
+}
 
 .nav{
     border: 3px solid blue;
@@ -10,4 +13,8 @@
 
 .logo1{
     width:5em;
+}
+
+.menu{
+    background-color: white;
 }
