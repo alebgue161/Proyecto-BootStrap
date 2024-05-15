@@ -6,8 +6,8 @@
     <title>
       Proyecto BootStrap - Página Overwatch 2 - Álvaro Lebrón Guerra
     </title>
-    <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/css/bootstrap.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <link
       rel="icon"
       href="Media/Overwatch_2_logo.svg(1).png"
@@ -16,152 +16,212 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,700&display=swap");
     </style>
   </head>
   <body>
-    <video
-      muted
-      loop
-      autoplay
-      src="/Media/fondo.mp4"
-      type="video/mp4"
-    ></video>
+    <video muted loop autoplay src="/Media/fondo.mp4" type="video/mp4"></video>
     <div class="container-fluid">
-      <div class="menu m-4 rounded">
-        <div class="row">
-          <div class="logo col-1 d-flex justify-content-center bg-white rounded-start-2">
-            <div class="dropdown d-inline-block">
+      <div class="menu m-4 rounded sticky-top">
+        <header>
+          <div class="row">
+            <div
+              class="logo col-1 d-flex justify-content-center bg-white rounded-start-2"
+            >
+              <div class="dropdown d-inline-block">
+                <a
+                  class="btn dropdown-toggle border-0"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="Media/Blizzard_Logo.png"
+                    alt="Logo Blizzard"
+                    class="logo1"
+                  />
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="https://www.blizzard.com/"
+                      >Visita Blizzard.com</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://www.blizzard.com/games"
+                      >Todos los juegos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="nav col-11 d-flex justify-content-around align-items-center bg-dark-subtle rounded-end-2"
+            >
+              <div class="logo_OW">
+                <img
+                  src="Media/Overwatch_2_logo.svg(1).png"
+                  alt="Logo Overwatch"
+                  width="55px"
+                />
+              </div>
+              <div class="dropdown-center align-items-center">
+                <button
+                  class="fondo btn dropdown-toggle bg-transparent text-dark border-0"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Información del juego
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Resumen</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://overwatch.blizzard.com/media"
+                      >Multimedia</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://overwatch.blizzard.com/news/patch-notes"
+                      >Notas del parche</a
+                    >
+                  </li>
+                </ul>
+              </div>
               <a
-                class="btn dropdown-toggle"
+                class="fondo btn btn-primary bg-transparent text-black border-0"
                 href="#"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                >Héroes</a
               >
-                <img
-                  src="Media/Blizzard_Logo.png"
-                  alt="Logo Blizzard"
-                  class="logo1"
-                />
+              <a
+                class="fondo btn btn-primary bg-transparent text-black border-0"
+                href="https://overwatch.blizzard.com/es-es/season/"
+                role="button"
+                >Temporada</a
+              >
+              <a
+                class="fondo btn btn-primary bg-transparent text-black border-0"
+                href="https://overwatch.blizzard.com/es-es/news/"
+                role="button"
+                >Noticias</a
+              >
+              <div class="dropdown-center">
+                <button
+                  class="fondo btn dropdown-toggle bg-transparent text-black border-0"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Comunidad
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://eu.forums.blizzard.com/es/overwatch/"
+                      >Foros</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://overwatch.blizzard.com/search"
+                      >perfiles de jugadores</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item disabled" href="#">ESPORTS</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://esports.overwatch.com/en-us/news/2024-owcs-emea-na-competitive-details"
+                      >Esports de Overwatch 2024</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown-center">
+                <button
+                  class="fondo btn dropdown-toggle bg-transparent text-black border-0"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tienda
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://gear.blizzard.com/collections/overwatch"
+                      >Tienda
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-arrow-up-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <a href="https://overwatch.blizzard.com/es-es/search/">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-search text-black"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                  />
+                </svg>
               </a>
-
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="https://www.blizzard.com/"
-                    >Visita Blizzard.com</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="https://www.blizzard.com/games"
-                    >Todos los juegos</a
-                  >
-                </li>
-              </ul>
+              <a class="juega btn border-0 text-white" href="#" role="button">Juega Ya</a>
             </div>
           </div>
-          <div
-            class="nav col-11 d-flex justify-content-around align-items-center bg-dark-subtle rounded-end-2"
-          >
-            <div class="logo_OW">
-              <img
-                src="Media/Overwatch_2_logo.svg(1).png"
-                alt="Logo Overwatch"
-                width="70px"
-              />
-            </div>
-            <div class="dropdown-center align-items-center">
-              <button
-                class="btn btn-secondary dropdown-toggle bg-transparent text-dark border-0"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Información del juego
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Resumen</a></li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://overwatch.blizzard.com/media"
-                    >Multimedia</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://overwatch.blizzard.com/news/patch-notes"
-                    >Notas del parche</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <a class="btn btn-primary bg-transparent text-black border-0" href="#" role="button">Héroes</a>
-            <a class="btn btn-primary bg-transparent text-black border-0" href="https://overwatch.blizzard.com/es-es/season/" role="button">Temporada</a>
-            <a class="btn btn-primary bg-transparent text-black border-0" href="https://overwatch.blizzard.com/es-es/news/" role="button">Noticias</a>
-            <div class="dropdown-center">
-              <button
-                class="btn btn-secondary dropdown-toggle bg-transparent text-black border-0"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Comunidad
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://eu.forums.blizzard.com/es/overwatch/"
-                    >Foros</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://overwatch.blizzard.com/search"
-                    >perfiles de jugadores</a
-                  >
-                </li>
-                <li><a class="dropdown-item disabled" href="#">ESPORTS</a></li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://esports.overwatch.com/en-us/news/2024-owcs-emea-na-competitive-details"
-                    >Esports de Overwatch 2024</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown-center">
-              <button
-                class="btn btn-secondary dropdown-toggle bg-transparent text-black border-0"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Tienda
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://gear.blizzard.com/collections/overwatch">Tienda
-                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                  </svg>
-                </a></li>
-              </ul>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-            </svg>
-            <a class="btn btn-primary bg-warning border-0" href="#" role="button">Juega Ya</a>
-          </div>
+                </div>
+        </header>
+      <main>
+        <div
+          class="main d-flex flex-column align-items-center justify-content-center"
+          style="height: 90vh"
+        >
+          <img
+            src="Media/Overwatch2.png"
+            class="rounded mx-auto d-block"
+            alt="Overwatch 2"
+            width="650"
+          />
+          <br>
+          <p class="poppins-bold-italic mt-4 fs-1 text-white">UN FUTURO POR EL QUE VALE LA PENA LUCHAR</p>
+          <p class="poppins-medium  fs-5 text-white">ACCIÓN EN EQUIPO • GRATIS</p>
         </div>
-      <!-- </div> -->
+      </main>
+      <footer>
+        <img src="Media/logo_battlenet.png" alt="">
+      </footer>
     </div>
   </body>
   <script src="src/js/bootstrap.bundle.js"></script>
