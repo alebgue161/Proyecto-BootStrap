@@ -64,11 +64,3 @@ body{
     width: 40px;
     height: auto;
   }
-
-.card:hover{
-    transform: scale(1.1);
-}
-  
-.card {
-    transition: transform 0.3s ease-in-out;
-  }

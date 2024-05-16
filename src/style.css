@@ -31,6 +31,7 @@ video{
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    object-fit: cover;
     z-index: -1;
     width: 100%;
 }
@@ -63,6 +64,11 @@ body{
     background-color: #F06414 !important;
 }
 
+.juega2{
+    background-color: #F06414 !important;
+    width: 100%;
+}
+
 .fondo:hover{
     background-color: #C5C4C9 !important;
 }
@@ -71,3 +77,34 @@ body{
 .juega:hover{
     background-color: #f39e58 !important;
 }
+
+
+@media (min-width: 992px) {
+    .principio {
+        justify-content: start !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .medio {
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 992px) { 
+    .fin {
+        justify-content: end !important;
+    }
+}
+
+.canvabg{
+    background-color: #EBEFF4;
+}
+
+.canvaenla:hover{
+    background-color: #DFE3E8 !important;
+}
+
+a.btn.btn-link {
+    padding-left: 0 !important;
+  }  
