@@ -78,25 +78,6 @@ body{
     background-color: #f39e58 !important;
 }
 
-
-@media (min-width: 992px) {
-    .principio {
-        justify-content: start !important;
-    }
-}
-
-@media (min-width: 992px) {
-    .medio {
-        justify-content: center !important;
-    }
-}
-
-@media (min-width: 992px) { 
-    .fin {
-        justify-content: end !important;
-    }
-}
-
 .canvabg{
     background-color: #EBEFF4;
 }

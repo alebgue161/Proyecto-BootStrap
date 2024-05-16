@@ -64,3 +64,29 @@ body{
     width: 40px;
     height: auto;
   }
+
+  .juega2{
+    background-color: #F06414 !important;
+    width: 100%;
+}
+
+.fondo:hover{
+    background-color: #C5C4C9 !important;
+}
+
+
+.juega:hover{
+    background-color: #f39e58 !important;
+}
+
+.canvabg{
+    background-color: #EBEFF4;
+}
+
+.canvaenla:hover{
+    background-color: #DFE3E8 !important;
+}
+
+a.btn.btn-link {
+    padding-left: 0 !important;
+  }  
