@@ -90,3 +90,12 @@ body{
 a.btn.btn-link {
     padding-left: 0 !important;
   }  
+
+  .card {
+    transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
